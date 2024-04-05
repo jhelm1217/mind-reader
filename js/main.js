@@ -11,13 +11,13 @@ let screens = ["screen1",
 ];
 
 let currentScreenIndex = 0;
-let nextButton = document.getElementsById('nextButton');
+let nextButton = document.getElementById('nextButton');
 let resetButton = document.getElementById('resetButton');
 let screen1 = document.getElementById('screen1');
 let screen2 = document.getElementById('screen2');
 let screen3 = document.getElementById('screen3');
 
-//make a elementclass name for Next Button to get all screens to functionm.
+//make a element class for my buttons
 // let showScreen = screens[currentScreenIndex];
 
 // screens[5];
