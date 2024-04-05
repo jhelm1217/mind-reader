@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Single Page Application</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- project styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/b14a99309c.js" crossorigin="anonymous"></script>
+
+  </head>  
+
+<body class="bg-danger vh-100 p-0 m-0">
+  <div class="container-xl bg-primary vh-100">
+
+    <div id="firstScreen" class="screen green vh-100">
+      <div id="top-section">
+        <h1>I can Read your mind</h1>
+      </div>
+      <div id="middle-section">
+        <h2></h2>
+      </div>
+      <div id="bottom-section">
+          <button id="nextScreen">Next</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="secondScreen" class="screen green vh-100" style="display: none;">
+      <div id="top-section" class="screen">
+        <h1>Pick a Number between 00-99</h1>
+      </div>
+      <div id="middle-section">
+        <h2>NextButton</h2>
+      </div>
+      <div id="bottom-section">
+        <button id="resetButton">refresh</button>
+      </div>
+    </div>
+  
+
+    <div id="thirdScreen" class="screen" style="display: none;">
+      <div id="top-section" class="screen">
+        <h1>Add both digits together to get a new number</h1>    
+      </div>
+      <div id="middle section">
+        <h2>Next Button</h2>
+      </div>
+      <div id="bottom section">
+        <button id="resetButton">refresh</button>
+      </div>
+
+    <div id="fourthScreen" class="screen" style="display: none;">
+      <div id="top-section">
+        <h1>I can Read your mind</h1>
+      </div>
+      <div id="middle-section">
+        <h2></h2>
+      </div>
+      <div id="bottom-section">
+          <button id="resetButton">refresh</button>
+        </div>
+      </div>
+
+      <div id="fifthScreen" class="screen">
+        <div id="top-section">
+          <h1></h1>
+        </div>
+        <div id="middle-section">
+          <h2></h2>
+        </div>
+        <div id="bottom-section">
+            <button id="nextScreen">Next</button>
+          </div>
+        </div>
+
+      <div id="sixthScreen" class="screen">
+        <div id="top-section">
+        </div>
+        <div id="middle-section">
+        </div>
+        <div id="bottom-section">
+        </div>
+      </div>
+        
+
+
+
+    <!-- BootStrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- project JavaScript -->
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

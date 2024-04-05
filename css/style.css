@@ -9,3 +9,64 @@ h1 {
   font-style: italic;
   color: pink;
 }
+/* 
+#top-section {
+  height:60%;
+}
+
+#middle-section {
+  height: 25%;
+}
+
+#bottom-section {
+  height: 15%;
+} */
+.screen {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.screen h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.top-section {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.middle-section {
+  padding: 10px;
+}
+
+.bottom-section {
+  padding: 10px;
+  text-align: right;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50%;
+  margin: 50;
+}
+.green {
+  background-color: darkgreen;
+  color: white;
+}
+
+
